@@ -4,7 +4,7 @@ import { TutorialComponent } from 'Tutorial.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls:['./app.component.css']
+  //styleUrls:['./app.component.css']
   /*template :`
  <input type="text" #textName (keyup)="0" />
  <p>Agree number:{{agree}}. Disgree:{{disgree}} </p>
@@ -14,13 +14,16 @@ import { TutorialComponent } from 'Tutorial.component';
   styleUrls: ['./app.component.css']*/
 })
 export class AppComponent {
-  title = 'Mạnh Nguyễn';
+
+
+
+  /*title = 'Mạnh Nguyễn';
   public cities=[{Id:1,Name:"HaNoi"},{Id:2,Name:"HCM"}];
 
   onSubmit(value:any)
   {
      console.log(value);
-  }
+  }*/
  /* public agree:number=0;
   public disgree:number =0;
   public names =['A','B','C','D','E'];

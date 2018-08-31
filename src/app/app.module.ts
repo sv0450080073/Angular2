@@ -4,12 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TutorialComponent } from 'tutorial.component';
 import {FormsModule} from '@angular/forms'
+import {employeeListComponent} from './employee.component'
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,TutorialComponent
+    AppComponent,
+    TutorialComponent,
+    employeeListComponent
   ],
   imports: [
     BrowserModule,FormsModule
