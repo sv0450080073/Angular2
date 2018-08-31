@@ -15,6 +15,7 @@ import { TutorialComponent } from 'Tutorial.component';
 })
 export class AppComponent {
   title = 'Mạnh Nguyễn';
+  public cities=[{Id:1,Name:"HaNoi"},{Id:2,Name:"HCM"}];
 
   onSubmit(value:any)
   {
