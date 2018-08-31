@@ -4,7 +4,7 @@
 <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
     <div class="form-group">
         <label>Name</label>
-        <input type="text" class="form-control" minlength="6" maxlength="10" required name="name" #name="ngModel" ngModel/>
+        <input type="text" class="form-control" minlength="6" maxlength="12" required name="name" #name="ngModel" ngModel/>
         <div *ngIf="name.errors && (name.dirty || name.touched)" class="alert alert-danger">
             <div [hidden]="!name.errors.required">
                     Name is requied
